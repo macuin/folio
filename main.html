@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BootStrap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="mainstyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="mainbox" class="row">
+				<div id="mainimg">
+				<img src="me.JPG" class="rounded-circle" width="110px" height="110px">
+			</div>
+		<p id="myname">MAYUKH CHATTERJEE</p>
+		<div id="mybuttons">
+			<a id="about" class="btn btn-light" href="#abouttab" role="button">About</a>
+			<a id="project" class="btn btn-light" href="#projecttab" role="button">Projects</a>
+			<a id="misc" class="btn btn-light" href="#" role="button">Misc</a>
+		</div>
+	</div>
+
+<div id="tabs">
+	<hr>
+	<h1 class="topic" id="abouttab">ABOUT</h1>
+	<hr style="width: 30%">
+	<div id="aboutpara">
+		<p> 
+		My name is Mayukh Chatterjee, if you hadn't already read it above. A student of Engineering currently studying in New Delhi. Always found breaking down very complex processes into binary equations, smplifying things is the best way to aproach a problem. Logic always played an important role, I tried to solve all problems with logic and was quite succful.
+		</p>
+		<p>
+		The Data Analysis domain really intrigues me, i've used my time to explore this domain. Machine Learning, Deep Learning and a lot more "Learning" topics. Solving complex mathematical models using new frameworks is what I fancy. It's quite addictive and can give never ending posiblities which are sometimes unpredictable.  
+		</p>
+		<p>
+			Besides logical computaions, I like capturing moments into photographs. The inspiration for photography was inspired by my parents' passion for long adventurous drives around the mountains. Capturing those moments was basically the begining of my photography hobby.  
+		</p>
+	</div>
+
+	<div>
+		<h1 class="topic" id="projecttab">PROJECT</h1>
+		<hr style="width: 30%">
+			<div id="firstcard"class="card" style="width: 18rem">
+  				<img src="hand.png" class="card-img-top" height="250px">
+  			<div class="overflow-auto">
+  				<div class="card-body">
+    				<h5 class="card-title" style="font-weight: bold">Handwritten Character Recognition System</h5>
+    				<p class="card-text">An ML model to recognize handwritten images and identify the character present in the image. The model uses K-Nearest Neighbours and Multiclass SVM to recognize and class the character present in the image. The libraries used includes sklearn, numpy, pandas etc.</p>
+  				</div>
+  			</div>
+			</div>
+
+			<div id= "secondcard" class="card" style="width: 18rem;">
+  				<img src="block.png" class="card-img-top" height="250px">
+  				<div class="card-body">
+    				<h5 class="card-title" style="font-weight: bold">Secure Online Ledger System</h5>
+    				<p class="card-text">A blockchain based secure system to perform banking operations. Uses IBM’s Hyperledger Composer as a back frame to make an online ledger with access regulations and security. </p>
+  				</div>
+			</div>
+
+			<div id= "thirdcard" class="card" style="width: 18rem;">
+  				<img src="neural.png" class="card-img-top" height="250px">
+  				<div class="card-body">
+    				<h5 class="card-title" style="font-weight: bold">Dogs and Cats Classifier</h5>
+    				<p class="card-text">A Concolutional Neural Network based model to classify Cats and Dogs</p>
+  				</div>
+			</div>
+	</div>
+</div>
+
+	</body>
+</html>
