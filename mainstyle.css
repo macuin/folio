@@ -53,13 +53,13 @@ font-family: 'Source Sans Pro', sans-serif;
 	height: 1300px;
 	background-color: #2d3539;
 	padding: 10px;
-	text-align: center; 
 }
 
 .topic{
 	color: white;
 	margin-top: 5%;
 	font-weight: bold;
+	text-align: center;
 }
 .card:hover{
 	box-shadow: 8px 8px 8px black;
@@ -78,7 +78,7 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 #aboutpara{
 	color: black;
-	width: 1200px;
+	width: 85%;
 	margin-left: 8%;
 	font-size: large;
 	text-align: left;
